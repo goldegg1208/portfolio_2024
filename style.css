@@ -3,8 +3,7 @@
 
 /*all*/
 html {
-  /*backgroud:url('img/back.jpg')repeat;*/
-  background-color:#ffc58a;
+  backgroud:url('../img/back.jpg')repeat;
 }
 
 /*sec_01*/
