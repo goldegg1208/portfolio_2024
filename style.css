@@ -33,9 +33,19 @@
 
 /*all*/
 html, body {
+  width:100%;
+  height:100%;
+  overflow:hidden;
   background:url('img/back.jpg') repeat;
   color:#4a3834;
 }
 
+div, h1, h2, h3, h4, p, b, li, ul, li {
+  padding:0;
+  margin:0;
+}
+
 /*sec_01*/
-#sec_01 p {font-size:60px; text-align:center;}
+#sec_01 {width:100%; height: 100vh; display: table; text-align:center;}
+#sec_01 .center {display: table-cell; vertical-align: middle;}
+#sec_01 p {font-size:60px;}
