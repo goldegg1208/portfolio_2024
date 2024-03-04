@@ -32,7 +32,7 @@
 
   src: url('font/Pacifico-Regular1.woff2') format('woff2'),
     url('font/Pacifico-Regular1.woff') format('woff'),
-    url('font/Pacifico-Regular.ttf') format('ttf'),
+    url('font/Pacifico-Regular1.ttf') format('ttf'),
     url('font/Pacifico-Regular1.otf') format('opentype');
   font-display: swap;
 }
