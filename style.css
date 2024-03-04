@@ -2,8 +2,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 /*all*/
-html {
-  backgroud:url('/img/back.jpg')repeat;
+html, body {
+  backgroud:url('img/back.jpg')repeat;
 }
 
 /*sec_01*/
