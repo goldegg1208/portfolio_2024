@@ -1,11 +1,9 @@
 /*font*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+KR:wght@100..900&family=Pacifico&display=swap')
 
-/*<weight>: Use a value from 100 to 900*/
 .noto {
   font-family: "Noto Sans KR", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
