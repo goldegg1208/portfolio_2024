@@ -7,8 +7,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Libre Baskerville' rel='stylesheet'>
 	<script src="script.js"></script>
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
 	
 	<title>Portfolio of KIM RAN</title>
@@ -22,25 +20,23 @@
 		</div>
 		<div class="center">
 			<p>portfolio</p>
-			<h2 data-aos="fade-up" data-aos-easing="ease" data-aos-delay="400">DESIGNER<br>KIM RAN</h2>
+			<h2 class="fade">DESIGNER<br>KIM RAN</h2>
 		</div>
 	</div>
 
 	<script>
-		AOS.init({
-			easing: 'ease-out-back',
-			duration: 1000
-		});
-	</script>
-
-	<script>
-		hljs.initHighlightingOnLoad();
-
-		$('.hero__scroll').on('click', function(e) {
-			$('html, body').animate({
-				scrollTop: $(window).height()
-			}, 1200);
-		});
+	  $(window).scroll(function () {
+	
+	    $('.fade').each(function (i) {
+	
+	      var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+	      var bottom_of_window = $(window).scrollTop() + $(window).height();
+	
+	      if (bottom_of_window > bottom_of_object) {
+	        $(this).css("filter", "none")
+	      }
+	    });
+	  });
 	</script>
 </body>
 </html>
