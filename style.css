@@ -96,6 +96,23 @@ animation-delay: 0.5s;
 }
 
 @keyframes stroke {
+	0% {
+                stroke:#4a3834;
+                stroke-width: 1px;
+                stroke-dashoffset: 290px;
+            }
+            70% {
+                fill: transparent;
+            }
+            98% {
+                stroke:#4a3834;
+                stroke-width: 1px;
+            }
+            100% {
+                fill: #4a3834;
+                stroke-dashoffset: 0px;
+            }
+/*	
   0%   {
   	stroke-dashoffset: 290px;
 	fill: transparent;
@@ -104,6 +121,7 @@ animation-delay: 0.5s;
   	stroke-dashoffset: 0px;
 	fill:#4a3834;
   }
+*/
 }
 
 
