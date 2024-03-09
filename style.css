@@ -98,13 +98,11 @@ animation-delay: 0.5s;
 @keyframes stroke {
 	0% {
                 stroke:#4a3834;
+		fill: transparent;
                 stroke-width: 1px;
                 stroke-dashoffset: 290px;
             }
-            70% {
-                fill: transparent;
-            }
-            98% {
+            75% {
                 stroke:#4a3834;
                 stroke-width: 1px;
             }
@@ -128,7 +126,7 @@ animation-delay: 0.5s;
 /*sec_01*/
 @media screen and (min-width: 1024px){
   svg text {
-	  font-family: 'Pacifico'; font-size:75px; stroke:#4a3834; fill:transparent;
+	  font-family: 'Pacifico'; font-size:75px; stroke:#4a3834; fill:#4a3834;
 	  stroke-width: 1px; stroke-dasharray: 290px; animation: stroke 1s linear;
   }
   #sec_01 {width:100%; height: 100vh; min-height:800px; display:table; text-align:center; font-family: 'Libre Baskerville';}
