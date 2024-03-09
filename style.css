@@ -98,7 +98,7 @@ animation-delay: 0.5s;
 
 /*sec_01*/
 @media screen and (min-width: 1024px){
-  svg text {font-family: 'Pacifico'; font-size:75px;} /*290 110*/
+  svg text {font-family: 'Pacifico'; font-size:75px;} /*290_110*/
   #sec_01 {width:100%; height: 100vh; min-height:800px; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
   #sec_01 p {font-family: 'Pacifico'; font-size:75px; text-align:center; position:absolute; width:100%; padding-top:20px;}
@@ -109,7 +109,7 @@ animation-delay: 0.5s;
 }
 
 @media screen and (max-width: 1023px){
-  svg text {font-family: 'Pacifico'; font-size:40px;} /*155 65*/
+  svg text {font-family: 'Pacifico'; font-size:40px;} /*155_65*/
   #sec_01 {width:100%; height: 100vh; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
   #sec_01 p {font-family: 'Pacifico'; font-size:40px; text-align:center; position:absolute; width:100%; padding-top:15px;}
