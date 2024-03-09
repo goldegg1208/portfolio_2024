@@ -102,10 +102,10 @@ animation-delay: 0.5s;
                 stroke-width: 1px;
                 stroke-dashoffset: 290px;
         }
-	75%{
+	85%{
 		fill: transparent;
         }
-        98% {
+        99% {
         	stroke:#4a3834;
                 stroke-width: 1px;
         }
