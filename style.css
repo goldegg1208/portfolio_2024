@@ -115,13 +115,14 @@ div, h1, h2, h3, h4, p, b, li, ul, li {
         }
 }
 
-svg text {
-	  font-family: 'Pacifico'; font-size:75px; stroke:#4a3834; fill:#4a3834;
-	  stroke-width: 1px; stroke-dasharray: 290px; animation: stroke 1s linear;
-  }
+
 
 /*sec_01*/
 @media screen and (min-width: 1024px){
+  svg text {
+	  font-family: 'Pacifico'; font-size:75px; stroke:#4a3834; fill:#4a3834;
+	  stroke-width: 1px; stroke-dasharray: 290px; animation: stroke 1s linear;
+  }
   #sec_01 {width:100%; height: 100vh; min-height:800px; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
   #sec_01 p {font-family: 'Pacifico'; font-size:75px; text-align:center; position:absolute; left:50%; margin-left:-120px; padding-top:50px;}
@@ -132,6 +133,10 @@ svg text {
 }
 
 @media screen and (max-width: 1023px){
+  svg text {
+	  font-family: 'Pacifico'; font-size:40px; stroke:#4a3834; fill:#4a3834;
+	  stroke-width: 1px; stroke-dasharray: 290px; animation: stroke 1s linear;
+  }
   #sec_01 {width:100%; height: 100vh; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
   #sec_01 p {font-family: 'Pacifico'; font-size:40px; text-align:center; position:absolute; left:50%; margin-left:-80px; padding-top:0px;}
