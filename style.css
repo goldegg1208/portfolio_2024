@@ -98,7 +98,7 @@ animation-delay: 0.5s;
 
 /*sec_01*/
 @media screen and (min-width: 1024px){
-  svg text {font-family: 'Pacifico'; font-size:75px; color:#4a3834;}
+  svg text {font-family: 'Pacifico'; font-size:75px; stroke:#4a3834; fill:#4a3834;}
   #sec_01 {width:100%; height: 100vh; min-height:800px; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
   #sec_01 p {font-family: 'Pacifico'; font-size:75px; text-align:center; position:absolute; left:50%; margin-left:-120px; padding-top:50px;}
@@ -109,10 +109,10 @@ animation-delay: 0.5s;
 }
 
 @media screen and (max-width: 1023px){
-  svg text {font-family: 'Pacifico'; font-size:40px; color:#4a3834;} /*155_65*/
+  svg text {font-family: 'Pacifico'; font-size:40px; stroke:#4a3834; fill:#4a3834;} /*155_65*/
   #sec_01 {width:100%; height: 100vh; display:table; text-align:center; font-family: 'Libre Baskerville';}
   #sec_01 .center {display: table-cell; vertical-align:middle;}
-  #sec_01 p {font-family: 'Pacifico'; font-size:40px; text-align:center; position:absolute; left:50%; margin-left:-60px; padding-top:25px;}
+  #sec_01 p {font-family: 'Pacifico'; font-size:40px; text-align:center; position:absolute; left:50%; margin-left:-100px; padding-top:0px;}
   #sec_01 h2 {font-size:50px; line-height:60px; opacity:0.2;}
   #sec_01 h4 {font-size:14px; font-weight:bold;}
   #sec_01 .up_area {position:absolute; top:50px; width:100%;}
